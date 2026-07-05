@@ -16,7 +16,7 @@ spec:
       spec:
         containers:
           - name: springboot-container
-            image:
+            image: savio9481/ci-cd-pipeline:latest
             imagePullPolicy: Always
             ports:
               - containerPort: 8080
